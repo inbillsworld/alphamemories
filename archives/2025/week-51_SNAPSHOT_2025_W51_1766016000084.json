@@ -1,0 +1,137 @@
+{
+  "snapshotId": "SNAPSHOT_2025_W51_1766016000084",
+  "generatedAt": "2025-12-18T00:00:00.084Z",
+  "windowStart": "2025-12-11T00:00:00.084Z",
+  "windowEnd": "2025-12-18T00:00:00.084Z",
+  "version": "1.0.0",
+  "volume": {
+    "totalTrades": 155,
+    "totalSessions": 429,
+    "byLane": {
+      "LEARNING_LANE": 143,
+      "BOT_ORCHESTRATOR": 12
+    },
+    "byRegime": {
+      "trending": 0,
+      "ranging": 12,
+      "volatile": 1,
+      "calm": 10
+    },
+    "bySide": {
+      "LONG": 15,
+      "SHORT": 140
+    },
+    "byOperationType": {
+      "scalp": 56,
+      "swing": 99
+    }
+  },
+  "performance": {
+    "winRate": 51.67,
+    "wins": 31,
+    "losses": 29,
+    "pnlSum": 9.48,
+    "pnlAvg": 0.158,
+    "pnlP95": 1.0325
+  },
+  "rrCompliance": {
+    "floorHits": 1,
+    "correctedTrades": 1,
+    "rejectedTrades": 1164,
+    "contaminatedCount": 0,
+    "complianceRate": 100
+  },
+  "latency": {
+    "p50Ms": 0,
+    "p90Ms": 0,
+    "p99Ms": 0,
+    "avgMs": 0
+  },
+  "governance": {
+    "circuitBreakerTrips": 0,
+    "guardrailAdjustments": 49,
+    "staleTrades": 0,
+    "orphanedTrades": 0
+  },
+  "abExperiment": {
+    "enabled": true,
+    "branchACount": 2822,
+    "branchBCount": 2822,
+    "branchAWinRate": 100,
+    "branchBWinRate": 100
+  },
+  "tableSizes": {
+    "judgment_registry": {
+      "rows": 27897,
+      "sizeMb": 666
+    },
+    "judgment_registry_archive_20251217": {
+      "rows": 0,
+      "sizeMb": 585
+    },
+    "execution_log": {
+      "rows": 318448,
+      "sizeMb": 351
+    },
+    "decision_telemetry": {
+      "rows": 90735,
+      "sizeMb": 287
+    },
+    "strategy_calendar": {
+      "rows": 179100,
+      "sizeMb": 280
+    },
+    "decision_telemetry_archive_20251217": {
+      "rows": 0,
+      "sizeMb": 213
+    },
+    "alpha_sessions": {
+      "rows": 429,
+      "sizeMb": 159
+    },
+    "alpha_sessions_archive_20251217": {
+      "rows": 0,
+      "sizeMb": 154
+    },
+    "alpha_signals": {
+      "rows": 429,
+      "sizeMb": 120
+    },
+    "alpha_signals_archive_20251217": {
+      "rows": 0,
+      "sizeMb": 117
+    },
+    "trades_shadow": {
+      "rows": 76,
+      "sizeMb": 27
+    },
+    "signal_blocks": {
+      "rows": 60755,
+      "sizeMb": 20
+    },
+    "simulation_trades": {
+      "rows": 155,
+      "sizeMb": 2
+    },
+    "simulation_trades_archive_20251217": {
+      "rows": 0,
+      "sizeMb": 2
+    },
+    "ab_experiment_log": {
+      "rows": 56,
+      "sizeMb": 1
+    }
+  },
+  "manifest": {
+    "sourceTables": [
+      "simulation_trades",
+      "alpha_sessions",
+      "judgment_registry",
+      "signal_blocks",
+      "ab_experiment_log"
+    ],
+    "queryWindowDays": 7,
+    "rowsScanned": 584,
+    "checksum": "baa5be5559df6f0b"
+  }
+}
